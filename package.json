@@ -2,11 +2,8 @@
   "name": "string-memory",
   "version": "1.0.0",
   "private": true,
-  "description": "A small Node app for Way.co assessment",
+  "description": "A small in memory string lookup assessment",
   "main": "index.js",
-  "engines": {
-    "node": ">=14.4.0"
-  },
   "author": {
     "name": "TJ Eastmond",
     "email": "tj.eastmond@gmail.com",
