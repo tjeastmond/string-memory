@@ -15,7 +15,7 @@ Write a long-lived service in JavaScript/NodeJS, that:
 - Don't feel you have to over-engineer the assignment. Do what feels right and sufficient for you to showcase your practical skills in both Javascript/Node.js and programming. This assignment was designed to be brief and to the point.
 - Don't feel you have to write tests for testings sake. Write them if you feel they're needed to ensure correct operation.
 
-## Getting Started
+# Getting Started
 
 For this assignment I used the `Koa` framework to develop the API, and stored the records in memory. The Node version was `v15.7.0` and NPM was `v7.5.6`.
 
