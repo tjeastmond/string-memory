@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.insertFinalNewline": true,
+  "search.useIgnoreFiles": false,
+  "prettier.singleQuote": true,
+  "search.exclude": { "**/node_modules": true },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": ["Haruki", "Murakami"]
+}

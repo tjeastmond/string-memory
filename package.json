@@ -1,0 +1,59 @@
+{
+  "name": "string-memory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small Node app for Way.co assessment",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.4.0"
+  },
+  "author": {
+    "name": "TJ Eastmond",
+    "email": "tj.eastmond@gmail.com",
+    "url": "https://tjeastmond.com"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-compose": "^4.1.0",
+    "koa-compress": "^5.0.1",
+    "koa-helmet": "^6.0.0",
+    "koa-logger": "^3.2.1",
+    "nodemon": "^2.0.7",
+    "uuid-by-string": "^3.0.2"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "husky": "^5.1.1",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.4",
+    "supertest": "^6.1.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules",
+      ".vscode"
+    ]
+  },
+  "lint-staged": {
+    "src/**/*.{js,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "insert": "time node ./scripts/generate.js",
+    "test": "jest"
+  }
+}
