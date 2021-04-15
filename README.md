@@ -1,6 +1,6 @@
 # Simple String Memory Assessment
 
-This is a cleaned up assessment I did recently. It was very simple project that we expanded on later.
+This is a cleaned up assessment I did recently. It a was very simple project that we expanded on later.
 
 ## The Original Ask
 
